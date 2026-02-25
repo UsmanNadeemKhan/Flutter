@@ -82,7 +82,7 @@ class ChatsTab extends StatelessWidget {
               "https://i.pravatar.cc/150?img=3",
             ),
           ),
-          title: Text("Ali Khan"),
+          title: Text("Kirty Roy"),
           subtitle: Text("Hello, how are you?"),
           trailing: Text("12:45 PM"),
         );
@@ -114,7 +114,7 @@ class StatusTab extends StatelessWidget {
               "https://i.pravatar.cc/150?img=6",
             ),
           ),
-          title: Text("Ahmed"),
+          title: Text("Kirty Roy"),
           subtitle: Text("Today, 10:30 AM"),
         ),
         Divider(),
