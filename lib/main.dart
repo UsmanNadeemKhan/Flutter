@@ -1,3 +1,4 @@
+//Usman Nadeem 2380247
 import 'package:flutter/material.dart';
 
 void main() {
@@ -24,13 +25,13 @@ class HomeScreen extends StatelessWidget {
     double width = MediaQuery.of(context).size.width;
 
     return Scaffold(
-      appBar: width < 800
+      appBar: width < 750
           ? AppBar(title: const Text("Responsive App"))
           : null,
-      drawer: width < 800 ? const SideBar() : null,
+      drawer: width < 750 ? const SideBar() : null,
       body: Row(
         children: [
-          if (width >= 800) const SideBar(),
+          if (width >= 750) const SideBar(),
           const Expanded(
             child: CenterImage(),
           ),
